@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "engines": {
+    "node": "20.19.4"
+  },
   "dependencies": {
     "next": "^16.1.1",
     "react": "^19.2.3",

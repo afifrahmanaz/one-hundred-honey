@@ -15,7 +15,7 @@ export default function Home() {
                     <Link href="/" className="flex items-center gap-1 group relative z-40">
                         <div className="relative w-16 h-16 md:w-20 md:h-20 transition-transform duration-300 group-hover:scale-105 -ml-2 -translate-y-1.5">
                             <Image
-                                src="/Ungu Creative Toko Pakaian Logo (1) (1).png"
+                                src="/ungu-creative-logo.png"
                                 alt="OneHundred Logo"
                                 fill
                                 className="object-contain drop-shadow-sm scale-125"
@@ -105,7 +105,7 @@ export default function Home() {
             <section className="relative w-full min-h-[500px] md:h-screen md:min-h-[800px] flex items-center bg-brand-dark overflow-hidden pt-24 md:pt-20">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/Head Section.png"
+                        src="/head-section.png"
                         alt="Liquid Honey Background"
                         fill
                         className="object-cover"
@@ -137,7 +137,7 @@ export default function Home() {
             </section>
 
             {/* 2. SHOP SECTION (Start Your OneHundred Honey) */}
-            <section id="shop" className="py-16 md:py-32 bg-[url('/Background.png')] bg-cover bg-center bg-no-repeat relative">
+            <section id="shop" className="py-16 md:py-32 bg-[url('/background.png')] bg-cover bg-center bg-no-repeat relative">
                 <div className="container mx-auto px-6 md:px-12 max-w-[1440px]">
                     <div className="flex flex-col md:flex-row justify-between items-end mb-10 md:mb-16 gap-6">
                         <div className="max-w-md">
@@ -336,7 +336,7 @@ export default function Home() {
             </section>
 
             {/* 5. OUR HONEY DETAIL SECTION (Image Left, Text Right) */}
-            <section id="our-honey" className="py-16 md:py-24 bg-[url('/Background2.png')] bg-cover bg-center relative overflow-hidden">
+            <section id="our-honey" className="py-16 md:py-24 bg-[url('/background-2.png')] bg-cover bg-center relative overflow-hidden">
                 {/* Overlay for better text readability if needed */}
                 <div className="absolute inset-0 bg-white/50 backdrop-blur-[2px]" />
 
@@ -346,7 +346,7 @@ export default function Home() {
                         <div className="w-full md:w-1/2">
                             <div className="relative rounded-[30px] md:rounded-[40px] p-3 md:p-4 bg-white shadow-2xl rotate-0 md:rotate-[-2deg] hover:rotate-0 transition-all duration-500">
                                 <div className="relative w-full aspect-[4/3] rounded-[24px] md:rounded-[30px] overflow-hidden">
-                                    <Image src="/Gambar.JPG" alt="Our Honey Varieties" fill className="object-cover" />
+                                    <Image src="/gambar.jpg" alt="Our Honey Varieties" fill className="object-cover" />
                                 </div>
                                 <div className="absolute -right-2 -top-2 md:-right-4 md:-top-4 w-16 h-16 md:w-24 md:h-24 bg-brand-yellow rounded-full flex items-center justify-center shadow-lg animate-bounce duration-[3000ms]">
                                     <span className="material-icons text-brand-text text-2xl md:text-4xl">verified</span>
@@ -410,7 +410,7 @@ export default function Home() {
                         <div className="space-y-6">
                             <div className="flex items-center gap-2">
                                 <div className="relative w-16 h-16 md:w-20 md:h-20">
-                                    <Image src="/Ungu Creative Toko Pakaian Logo (1) (1).png" alt="Logo" fill className="object-contain" />
+                                    <Image src="/ungu-creative-logo.png" alt="Logo" fill className="object-contain" />
                                 </div>
                                 <span className="font-spartan font-bold text-2xl tracking-widest text-white">ONEHUNDRED</span>
                             </div>
