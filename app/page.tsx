@@ -15,7 +15,7 @@ export default function Home() {
                     <Link href="/" className="flex items-center gap-1 group relative z-40">
                         <div className="relative w-16 h-16 md:w-20 md:h-20 transition-transform duration-300 group-hover:scale-105 -ml-2 -translate-y-1.5">
                             <Image
-                                src="/ungu-creative-logo.png"
+                                src="/ms-icon-150x150.png"
                                 alt="OneHundred Logo"
                                 fill
                                 className="object-contain drop-shadow-sm scale-125"
@@ -33,7 +33,7 @@ export default function Home() {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center gap-12 font-spartan font-medium text-sm md:text-base tracking-wide text-brand-gray">
-                        <Link href="/" className="text-brand-text font-bold">Home</Link>
+                        <Link href="/" className="text-brand-text hover:text-brand-gold transition-colors">Home</Link>
                         <Link href="#our-honey" className="hover:text-brand-gold transition-colors">Our Honey</Link>
                         <Link href="#philosophy" className="hover:text-brand-gold transition-colors">About Us</Link>
                     </div>
@@ -346,7 +346,7 @@ export default function Home() {
                         <div className="w-full md:w-1/2">
                             <div className="relative rounded-[30px] md:rounded-[40px] p-3 md:p-4 bg-white shadow-2xl rotate-0 md:rotate-[-2deg] hover:rotate-0 transition-all duration-500">
                                 <div className="relative w-full aspect-[4/3] rounded-[24px] md:rounded-[30px] overflow-hidden">
-                                    <Image src="/gambar.jpg" alt="Our Honey Varieties" fill className="object-cover" />
+                                    <Image src="/gradient.png" alt="Our Honey Varieties" fill className="object-cover" />
                                 </div>
                                 <div className="absolute -right-2 -top-2 md:-right-4 md:-top-4 w-16 h-16 md:w-24 md:h-24 bg-brand-yellow rounded-full flex items-center justify-center shadow-lg animate-bounce duration-[3000ms]">
                                     <span className="material-icons text-brand-text text-2xl md:text-4xl">verified</span>
@@ -410,7 +410,7 @@ export default function Home() {
                         <div className="space-y-6">
                             <div className="flex items-center gap-2">
                                 <div className="relative w-16 h-16 md:w-20 md:h-20">
-                                    <Image src="/ungu-creative-logo.png" alt="Logo" fill className="object-contain" />
+                                    <Image src="/ms-icon-150x150.png" alt="Logo" fill className="object-contain" />
                                 </div>
                                 <span className="font-spartan font-bold text-2xl tracking-widest text-white">ONEHUNDRED</span>
                             </div>

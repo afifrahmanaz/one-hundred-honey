@@ -10,6 +10,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
     title: "OneHundred Honey",
     description: "Bringing the purity of honey to your table.",
+    icons: {
+        icon: '/favicon-96x96.png',
+        shortcut: '/favicon-96x96.png',
+        apple: '/apple-icon-180x180.png',
+    },
 };
 
 export default function RootLayout({
